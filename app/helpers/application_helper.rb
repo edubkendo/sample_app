@@ -10,4 +10,9 @@ module ApplicationHelper
 		end
 		
 	end
+	
+	# Define image for logo here
+	def logo
+		logo = image_tag("logo.png", alt: "Sample App", class: "round")
+	end	
 end
